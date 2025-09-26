@@ -23,13 +23,17 @@ class RegularPolygon(Polygon):
         s = self.side_length
         area = (n * s**2) / (4 * math.tan(math.pi / n))
         return f"Area = {area}"
-    def get_diagonal_length(self):
+    def get_diagonal_lengths(self):
         n = self.sides
         s = self.side_length
-        dl=s / math.sin(math.pi / n)
-        return f"Diagonal length = {dl}"
+        R = s / (2 * math.sin(math.pi / n))
+        diagonals = []
+        for k in range(2, n // 2 + 1):  
+            d = 2 * R * math.sin(k * math.pi / n)
+            diagonals.append(round(d, 4))
+        return f"Diagonal lengths = {diagonals}"
 
-    
+        
 class Triangle(RegularPolygon):
     def __init__(self, side_length):
         
@@ -171,7 +175,7 @@ while True:
             print(pent.get_area())
             print(pent.number_of_diagonals())
             print(pent.get_perimeter())
-            print(pent.get_diagonal_length())
+            print(pent.get_diagonal_lengths())
 
 
 
@@ -192,7 +196,7 @@ while True:
             print(hex.get_area())
             print(hex.number_of_diagonals())
             print(hex.get_perimeter())
-            print(hex.get_diagonal_length())
+            print(hex.get_diagonal_lengths())
 
 
         elif choice=="heptagon":
@@ -202,7 +206,7 @@ while True:
             print(hep.get_area())
             print(hep.number_of_diagonals())
             print(hep.get_perimeter())
-            print(hep.get_diagonal_length())
+            print(hep.get_diagonal_lengths())
 
 
         elif choice=="octagon":
@@ -212,7 +216,7 @@ while True:
             print(oct.get_area())
             print(oct.number_of_diagonals())
             print(oct.get_perimeter())
-            print(oct.get_diagonal_length())
+            print(oct.get_diagonal_lengths())
 
 
         elif choice == "nanagon":
@@ -222,7 +226,7 @@ while True:
             print(nana.get_area())
             print(nana.number_of_diagonals())
             print(nana.get_perimeter())
-            print(nana.get_diagonal_length())
+            print(nana.get_diagonal_lengths())
 
 
         elif choice =="decagon":
@@ -232,7 +236,7 @@ while True:
             print(dec.get_area())
             print(dec.number_of_diagonals())
             print(dec.get_perimeter())
-            print(dec.get_diagonal_length())
+            print(dec.get_diagonal_lengths())
 
         else:
             

@@ -11,10 +11,10 @@ This project allows users to interactively explore geometric properties for mult
 - Supports multiple polygons:  
   - **Triangle**, **Square**, **Rectangle**, **Pentagon**, **Hexagon**, **Heptagon**, **Octagon**, **Nanagon**, **Decagon**
 - Calculates:
-  - Area ✅
-  - Perimeter ✅
-  - Number of diagonals ✅
-  - Diagonal length (for squares and rectangles) ✅
+  - Area 
+  - Perimeter 
+  - Number of diagonals 
+  - Diagonal length  
 - Provides **visual ASCII pictures** for:
   - Triangle  
   - Square  

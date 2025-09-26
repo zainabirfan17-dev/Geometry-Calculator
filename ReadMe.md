@@ -78,7 +78,10 @@ Rectangle(width=8, height=4)
 
 ## 🎥 Program in action
 
-[![Watch the videp](https://img.youtube.com/vi/qYFxdlPBKOQ/0.jpg)](https://youtu.be/qYFxdlPBKOQ)
+Watch the program in action here: [YouTube Link](https://youtu.be/prGn6WHOm5g)
+
+[![Geometry Calculator Demo](https://img.youtube.com/vi/prGn6WHOm5g/0.jpg)](https://youtu.be/prGn6WHOm5g)
+
 
 ## 🛠️ Technologies Used
 

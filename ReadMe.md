@@ -102,3 +102,7 @@ Contributions are welcome! You can:
 ## 📜 License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and share.
+
+## Note 
+I do plan to expand this project into a full app once I have the required skills to do so but for now I will not rush it and leave it as it is.
+This is my biggest acheivement so far as it is my own creation and I look forward to grow more <3

@@ -176,7 +176,7 @@ while True:
             print(pent.get_area())
             print(pent.number_of_diagonals())
             print(pent.get_perimeter())
-            print(pent.get_diagonal_length())
+            print(pent.get_diagonal_lengths())
 
 
 
@@ -197,7 +197,7 @@ while True:
             print(hex.get_area())
             print(hex.number_of_diagonals())
             print(hex.get_perimeter())
-            print(hex.get_diagonal_length())
+            print(hex.get_diagonal_lengths())
 
 
         elif choice=="heptagon":
@@ -207,7 +207,7 @@ while True:
             print(hep.get_area())
             print(hep.number_of_diagonals())
             print(hep.get_perimeter())
-            print(hep.get_diagonal_length())
+            print(hep.get_diagonal_lengths())
 
 
         elif choice=="octagon":
@@ -217,7 +217,7 @@ while True:
             print(oct.get_area())
             print(oct.number_of_diagonals())
             print(oct.get_perimeter())
-            print(oct.get_diagonal_length())
+            print(oct.get_diagonal_lengths())
 
 
         elif choice == "nonagon":
@@ -227,7 +227,7 @@ while True:
             print(nana.get_area())
             print(nana.number_of_diagonals())
             print(nana.get_perimeter())
-            print(nana.get_diagonal_length())
+            print(nana.get_diagonal_lengths())
 
 
         elif choice =="decagon":
@@ -237,7 +237,7 @@ while True:
             print(dec.get_area())
             print(dec.number_of_diagonals())
             print(dec.get_perimeter())
-            print(dec.get_diagonal_length())
+            print(dec.get_diagonal_lengths())
 
         else:
             

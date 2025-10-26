@@ -1,6 +1,6 @@
 import math
 print("This program supports the calculation of area, perimeter , number of diagonals , length of diagonals(square and rectangle only)and also visual pictures for square,triangle and rectangle")
-print("The allowed shapes are square,rectangle,triangle,pentagon,hexagon,heptagon,octagon,nanagon,decagon")
+print("The allowed shapes are square,rectangle,triangle,pentagon,hexagon,heptagon,octagon,nonagon,decagon")
 class Polygon:
     def __init__(self, sides):
         self.sides = sides
@@ -220,10 +220,10 @@ while True:
             print(oct.get_diagonal_length())
 
 
-        elif choice == "nanagon":
+        elif choice == "nonagon":
             sidelength=int(input("Enter the side length: "))
             nana = RegularPolygon(9,sidelength)
-            print("Sides of nanagon = 9")
+            print("Sides of nonagon = 9")
             print(nana.get_area())
             print(nana.number_of_diagonals())
             print(nana.get_perimeter())

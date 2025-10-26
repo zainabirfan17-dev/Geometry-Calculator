@@ -1,6 +1,6 @@
 import math
 print("This program supports the calculation of area, perimeter , number of diagonals , length of diagonals(square and rectangle only)and also visual pictures for square,triangle and rectangle")
-print("The allowed shapes are square,rectangle,triangle,pentagon,hexagon,heptagon,octagon,nanagon,decagon")
+print("The allowed shapes are square,rectangle,triangle,pentagon,hexagon,heptagon,octagon,nonagon,decagon")
 class Polygon:
     def __init__(self, sides):
         self.sides = sides
@@ -33,7 +33,8 @@ class RegularPolygon(Polygon):
             diagonals.append(round(d, 4))
         return f"Diagonal lengths = {diagonals}"
 
-        
+
+    
 class Triangle(RegularPolygon):
     def __init__(self, side_length):
         
@@ -175,7 +176,7 @@ while True:
             print(pent.get_area())
             print(pent.number_of_diagonals())
             print(pent.get_perimeter())
-            print(pent.get_diagonal_lengths())
+            print(pent.get_diagonal_length())
 
 
 
@@ -196,7 +197,7 @@ while True:
             print(hex.get_area())
             print(hex.number_of_diagonals())
             print(hex.get_perimeter())
-            print(hex.get_diagonal_lengths())
+            print(hex.get_diagonal_length())
 
 
         elif choice=="heptagon":
@@ -206,7 +207,7 @@ while True:
             print(hep.get_area())
             print(hep.number_of_diagonals())
             print(hep.get_perimeter())
-            print(hep.get_diagonal_lengths())
+            print(hep.get_diagonal_length())
 
 
         elif choice=="octagon":
@@ -216,17 +217,17 @@ while True:
             print(oct.get_area())
             print(oct.number_of_diagonals())
             print(oct.get_perimeter())
-            print(oct.get_diagonal_lengths())
+            print(oct.get_diagonal_length())
 
 
-        elif choice == "nanagon":
+        elif choice == "nonagon":
             sidelength=int(input("Enter the side length: "))
             nana = RegularPolygon(9,sidelength)
-            print("Sides of nanagon = 9")
+            print("Sides of nonagon = 9")
             print(nana.get_area())
             print(nana.number_of_diagonals())
             print(nana.get_perimeter())
-            print(nana.get_diagonal_lengths())
+            print(nana.get_diagonal_length())
 
 
         elif choice =="decagon":
@@ -236,7 +237,7 @@ while True:
             print(dec.get_area())
             print(dec.number_of_diagonals())
             print(dec.get_perimeter())
-            print(dec.get_diagonal_lengths())
+            print(dec.get_diagonal_length())
 
         else:
             
